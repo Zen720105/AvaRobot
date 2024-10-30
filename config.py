@@ -19,7 +19,7 @@ class Config(object):
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "waifexanime")
     LOGGER_ID = int(getenv("LOGGER_ID", "-1002494871325"))
     MONGO_URI = getenv("mongodb+srv://teamdaxx123:teamdaxx123@cluster0.ysbpgcp.mongodb.net/?retryWrites=true&w=majority")
-    DB_NAME = getenv("DB_NAME", "ATTRACTIVE_REVENGER_BOT")
+    DB_NAME = getenv("DB_NAME", "hinatarobot_bot")
     REDIS_URL = "redis://default:wK6ZCiclq4iQKYpgfY90v6kd6WdPfEwl@redis-10186.c263.us-east-1-2.ec2.cloud.redislabs.com:10186/default"
     DATABASE_URL = getenv("DATABASE_URL", None)
 
